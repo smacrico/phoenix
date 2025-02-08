@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-react-js-client-side-solution",
+    "id": "20eb68ed-2aed-4a0f-8bd8-3aed161f3690",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-react-js.sppkg"
+  }
+}
