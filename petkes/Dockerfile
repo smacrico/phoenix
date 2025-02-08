@@ -1,0 +1,15 @@
+FROM node:8.12.0
+
+EXPOSE 5432 4321 35729
+
+RUN npm i -g gulp@3 yo @pnp/generator-spfx@1.6.1 --unsafe-perm
+
+VOLUME /usr/app/spfx
+WORKDIR /usr/app/spfx
+
+RUN useradd --create-home --shell /bin/bash spfx && \
+    chown -R spfx:spfx /usr/app/spfx
+
+USER spfx
+
+CMD /bin/bash
