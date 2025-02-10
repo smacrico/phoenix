@@ -3,6 +3,7 @@
     "framework": "react",
     "pnpFramework": "reactjs.plus",
     "pnp-libraries": [
+      "jquery@3",
       "@pnp/spfx-property-controls"
     ],
     "pnp-vetting": [
@@ -11,11 +12,11 @@
   },
   "@microsoft/generator-sharepoint": {
     "framework": "react",
-    "isCreatingSolution": false,
+    "isCreatingSolution": true,
     "environment": "onprem",
     "version": "1.7.1",
-    "libraryName": "hello-react-js",
-    "libraryId": "20eb68ed-2aed-4a0f-8bd8-3aed161f3690",
+    "libraryName": "welcome-react-js",
+    "libraryId": "8accc07b-87e4-4927-bd46-e2b0910ce28d",
     "packageManager": "npm",
     "componentType": "webpart"
   }
