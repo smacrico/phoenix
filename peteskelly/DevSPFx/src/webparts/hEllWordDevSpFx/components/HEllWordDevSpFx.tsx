@@ -1,12 +1,12 @@
 import * as React from 'react';
-import styles from './Hello.module.scss';
-import { IHelloProps } from './IHelloProps';
+import styles from './HEllWordDevSpFx.module.scss';
+import { IHEllWordDevSpFxProps } from './IHEllWordDevSpFxProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 
-export default class Hello extends React.Component<IHelloProps, {}> {
-  public render(): React.ReactElement<IHelloProps> {
+export default class HEllWordDevSpFx extends React.Component<IHEllWordDevSpFxProps, {}> {
+  public render(): React.ReactElement<IHEllWordDevSpFxProps> {
     return (
-      <div className={ styles.hello }>
+      <div className={ styles.hEllWordDevSpFx }>
         <div className={ styles.container }>
           <div className={ styles.row }>
             <div className={ styles.column }>

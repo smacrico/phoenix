@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "dev-sp-fx",
+    "libraryId": "b558252d-3926-4e84-aa73-f4c9545ec320",
+    "environment": "onprem",
+    "packageManager": "npm",
+    "framework": "react",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}
