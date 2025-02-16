@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/hEllWordDevSpFx/HEllWordDevSpFxWebPart.js",
+      "manifest": "./src/webparts/hEllWordDevSpFx/HEllWordDevSpFxWebPart.manifest.json",
+      "outputPath": "./dist/h-ell-word-dev-sp-fx-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "HEllWordDevSpFxWebPartStrings": "webparts/hEllWordDevSpFx/loc/{locale}.js"
+  }
+}

@@ -3,7 +3,10 @@
     "framework": "react",
     "pnpFramework": "reactjs.plus",
     "pnp-libraries": [
-      "@pnp/spfx-property-controls"
+      "jquery@3",
+      "@pnp/pnpjs",
+      "@pnp/spfx-property-controls",
+      "@pnp/spfx-controls-react"
     ],
     "pnp-vetting": [
       "webpack-analyzer"
@@ -11,12 +14,8 @@
   },
   "@microsoft/generator-sharepoint": {
     "framework": "react",
-    "isCreatingSolution": false,
+    "isCreatingSolution": true,
     "environment": "onprem",
-    "version": "1.7.1",
-    "libraryName": "hello-react-js",
-    "libraryId": "20eb68ed-2aed-4a0f-8bd8-3aed161f3690",
-    "packageManager": "npm",
-    "componentType": "webpart"
+    "whichFolder": "subdir"
   }
 }

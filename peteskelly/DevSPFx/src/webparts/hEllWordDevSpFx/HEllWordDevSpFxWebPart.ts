@@ -7,19 +7,19 @@ import {
   PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
 
-import * as strings from 'HelloWorldWebPartStrings';
-import HelloWorld from './components/HelloWorld';
-import { IHelloWorldProps } from './components/IHelloWorldProps';
+import * as strings from 'HEllWordDevSpFxWebPartStrings';
+import HEllWordDevSpFx from './components/HEllWordDevSpFx';
+import { IHEllWordDevSpFxProps } from './components/IHEllWordDevSpFxProps';
 
-export interface IHelloWorldWebPartProps {
+export interface IHEllWordDevSpFxWebPartProps {
   description: string;
 }
 
-export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
+export default class HEllWordDevSpFxWebPart extends BaseClientSideWebPart<IHEllWordDevSpFxWebPartProps> {
 
   public render(): void {
-    const element: React.ReactElement<IHelloWorldProps > = React.createElement(
-      HelloWorld,
+    const element: React.ReactElement<IHEllWordDevSpFxProps > = React.createElement(
+      HEllWordDevSpFx,
       {
         description: this.properties.description
       }
